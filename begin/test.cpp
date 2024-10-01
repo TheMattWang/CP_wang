@@ -12,10 +12,10 @@ void solve(){
 }
 
 int main() {
-    int T = 1;
-    cin >> T;
-    while(T--){
-        solve();
-    }
+    int a_correct = 32;
+    int a_total = 90;
+    int b_corr = 88;
+    double b_tot = 95;
+    cout << (a_correct / a_total);
     return 0;
 }
