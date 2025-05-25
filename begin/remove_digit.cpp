@@ -8,6 +8,9 @@ using namespace std;
 #define ss second
 #define max 1e9
 
+#include<iostream>
+
+
 ll mod = 1e9 + 7;
 ll n,x;
 using vi = vector<int>;
@@ -33,8 +36,7 @@ int solve(int t){
 int main() {
     int T = 1;
     cin >> T;
-    cout << "Apple";
-    cout << "Orange"; 
+    
     cout << solve(T) << endl;
     
     return 0;
